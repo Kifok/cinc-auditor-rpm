@@ -1,0 +1,22 @@
+<ComponentDescriptor>
+	<Name>VMware.VimAutomation.Vpc.Impl</Name>
+	<Assembly>VMware.VimAutomation.Vpc.Impl</Assembly>
+	<ImplementingType>VMware.VimAutomation.Vpc.Impl.V1.VpcComponentImpl</ImplementingType>
+	<IsSnapin>false</IsSnapin>
+
+	<ProvidedServiceList>
+		<ServiceDescriptor>
+			<Name>VpcCoreComponentService</Name>
+			<Version>1.0</Version>
+		</ServiceDescriptor>
+	</ProvidedServiceList>
+
+	<RequiredServiceList>
+		<ServiceDescriptor>
+			<Name>ViCoreService</Name>
+			<Version>1.0</Version>
+		</ServiceDescriptor>
+   </RequiredServiceList>
+
+	<ExtendedServiceList></ExtendedServiceList>
+</ComponentDescriptor>
